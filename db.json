@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "name": "dsfdsf",
+      "email": "dsfdsf@mail.ruu",
+      "message": "dsfdsfdsf"
+    },
+    {
+      "name": "dsfdsf",
+      "email": "dsfdsf@mail.ruu",
+      "message": "dsfdsfdsf"
+    },
+    {
+      "name": "Геннадий",
+      "email": "abashkin.91@mail.ru",
+      "message": "Текст"
+    },
+    {
+      "name": "Геннадий",
+      "email": "abashkin.91@mail.ru",
+      "message": "Текст"
+    },
+    {
+      "name": "Геннадий",
+      "email": "abashkin.91@mail.ru",
+      "message": "Текст"
+    }
+  ],
+  "auth": [
+    {
+      "email": "abashkin.91@mail.ru",
+      "password": "12345"
+    },
+    {
+      "email": "abashkin.91@mail.ru",
+      "password": "12345"
+    }
+  ],
+  "products": [],
+  "skills": []
+}
