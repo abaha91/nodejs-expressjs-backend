@@ -24,6 +24,11 @@
       "name": "Геннадий",
       "email": "abashkin.91@mail.ru",
       "message": "Текст"
+    },
+    {
+      "name": "hello",
+      "email": "hello@yandex.ru",
+      "message": "hello world"
     }
   ],
   "auth": [
@@ -36,6 +41,30 @@
       "password": "12345"
     }
   ],
-  "products": [],
-  "skills": []
+  "products": [
+    {
+      "photo": "1472982603.jpg",
+      "name": "dsfdsfds",
+      "price": "dsfdsfdsf"
+    },
+    {
+      "photo": "1472982603.jpg",
+      "name": "dsfdsfds",
+      "price": "dsfdsfdsf"
+    }
+  ],
+  "skills": [
+    {
+      "age": "4",
+      "concerts": "4",
+      "cities": "4",
+      "years": "6"
+    },
+    {
+      "age": "4",
+      "concerts": "4",
+      "cities": "4",
+      "years": "6"
+    }
+  ]
 }

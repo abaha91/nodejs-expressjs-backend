@@ -23,6 +23,25 @@ app.post('/', (request, response) => {
     }
 });
 
+app.post('/admin/upload', (request, response) => {
+  if(request.body) {
+    console.log(request.params);
+    db.get('products')
+        .push({photo: request.body.photo, name: request.body.name, price: request.body.price})
+        .write()
+  }
+});
+
+app.post('/admin/skills', (request, response) => {
+  if(request.body) {
+    console.log(request.params);
+    db.get('skills')
+      .push({age: request.body.age, concerts: request.body.concerts, cities: request.body.cities, years: request.body.years})
+      .write()
+  }
+
+});
+
 app.post('/login', (request, response) => {
     if(request.body) {
         db.get('auth')
