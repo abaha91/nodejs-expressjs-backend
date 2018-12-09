@@ -9,9 +9,8 @@ module.exports = {
     },
     post: (request, response) => {
         if(request.body) {
-          console.log(request.body);
-            db.get('auth')
-                .push({email: request.body.email, password: request.body.password})
+            db.get('users')
+                .push({name: request.body.name, email: request.body.email, message: request.body.message})
                 .write()
         }
     }

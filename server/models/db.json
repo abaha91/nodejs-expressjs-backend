@@ -1,131 +1,59 @@
 {
   "users": [
     {
-      "name": "dsfdsf",
-      "email": "dsfdsf@mail.ruu",
-      "message": "dsfdsfdsf"
-    },
-    {
-      "name": "dsfdsf",
-      "email": "dsfdsf@mail.ruu",
-      "message": "dsfdsfdsf"
+      "name": "Геннадий",
+      "email": "abashkin.91@mail.ru",
+      "message": "hello"
     },
     {
       "name": "Геннадий",
       "email": "abashkin.91@mail.ru",
-      "message": "Текст"
-    },
-    {
-      "name": "Геннадий",
-      "email": "abashkin.91@mail.ru",
-      "message": "Текст"
-    },
-    {
-      "name": "Геннадий",
-      "email": "abashkin.91@mail.ru",
-      "message": "Текст"
-    },
-    {
-      "name": "hello",
-      "email": "hello@yandex.ru",
-      "message": "hello world"
-    },
-    {
-      "name": "hello2",
-      "email": "hello2@mail.ru",
-      "message": "hello-world-2"
-    },
-    {
-      "name": "hello2",
-      "email": "hello2@mail.ru",
-      "message": "hello-world-2"
+      "message": "hello"
     }
   ],
   "auth": [
     {
       "email": "abashkin.91@mail.ru",
-      "password": "12345"
-    },
-    {
-      "email": "abashkin.91@mail.ru",
-      "password": "12345"
-    },
-    {
-      "email": "rgffdgfd@dfdfd.ru"
-    },
-    {
-      "email": "rgffdgfd@dfdfd.ru"
+      "password": "loft"
     }
   ],
   "products": [
     {
-      "photo": "1472982603.jpg",
-      "name": "dsfdsfds",
-      "price": "dsfdsfdsf"
-    },
-    {
-      "photo": "1472982603.jpg",
-      "name": "dsfdsfds",
-      "price": "dsfdsfdsf"
-    },
-    {
-      "photo": "0_77ao_vh0ALXwOL1T.png",
-      "name": "dfsdfdsf",
-      "price": "dsfdsfds"
-    },
-    {
-      "photo": "0_77ao_vh0ALXwOL1T.png",
-      "name": "dfsdfdsf",
-      "price": "dsfdsfds"
-    },
-    {
-      "photo": "0_77ao_vh0ALXwOL1T.png",
-      "name": "dsfdsfds",
-      "price": "dsfdsfds"
-    },
-    {
-      "photo": "0_77ao_vh0ALXwOL1T.png",
-      "name": "dsfdsfds",
-      "price": "dsfdsfds"
-    },
-    {
-      "photo": "sqorn.jpg",
-      "name": "dsfdsfds",
-      "price": "dsfdsfds"
-    },
-    {
-      "photo": "sqorn.jpg",
-      "name": "dsfdsfdsf",
-      "price": "dsfdsfds"
-    },
-    {
-      "photo": "sqorn.jpg",
-      "name": "dsfdsfdsf",
-      "price": "dsfdsfds"
-    },
-    {
-      "photo": "sqorn.jpg",
-      "name": "dsfdsfdsf",
-      "price": "dsfdsfds"
-    },
-    {
-      "photo": "sqorn.jpg",
-      "name": "sdfdsfdsf",
-      "price": "dsfdsfdsf"
+      "src": "C:\\dev\\home\\nodejs-expressjs-backend\\source\\upload\\155-full.png",
+      "name": "товар",
+      "price": "100"
     }
   ],
   "skills": [
     {
-      "age": "4",
-      "concerts": "4",
-      "cities": "4",
-      "years": "6"
+      "age": "10",
+      "concerts": "10",
+      "cities": "10",
+      "years": "10"
     },
     {
-      "age": "4",
-      "concerts": "4",
-      "cities": "4",
-      "years": "6"
+      "age": "10",
+      "concerts": "10",
+      "cities": "10",
+      "years": "10"
+    },
+    {
+      "age": "11",
+      "concerts": "11",
+      "cities": "11",
+      "years": "11"
+    },
+    {
+      "age": "11",
+      "concerts": "11",
+      "cities": "11",
+      "years": "11"
+    },
+    {
+      "age": "11",
+      "concerts": "11",
+      "cities": "11",
+      "years": "11"
     }
   ]
 }

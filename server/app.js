@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const fs = require('fs');
 const bodyParser = require('body-parser');
 
 const lowDB = require('lowdb');
@@ -17,20 +18,13 @@ app.set('view engine', 'pug');
 app.use(express.static(path.join(__dirname, '..', 'public')));
 app.use('/', require('./routes'));
 
-// app.post('/admin/upload', (request, response) => {
-// });
-
-// app.post('/admin/skills', (request, response) => {
-
-// });
-
 const server = app.listen(process.env.PORT || 3012, () => {
   console.log('Server started in ' + server.address().port + ' port');
 });
 
-if(!db) {
+const dbSize = fs.statSync('./models/db.json').size;
+if (dbSize <= 2){
     db.defaults({ users: [], auth: [], products: [], skills: [] })
         .write();
 }
-
 
