@@ -1,8 +1,5 @@
-const lowDB = require('lowdb');
+const db = require('../models/dataBase');
 const formidable = require('formidable');
-const FileSync = require('lowdb/adapters/FileSync');
-const adapter = new FileSync('./models/db.json');
-const db = lowDB(adapter);
 const path = require('path');
 const fs = require('fs');
 
@@ -51,8 +48,7 @@ module.exports = {
                 db.get('products')
                     .push(data)
                     .write();
-
-                return console.log('Продукт успешно загружен');
+              return console.log('Продукт успешно загружен');
             })
         });
     }

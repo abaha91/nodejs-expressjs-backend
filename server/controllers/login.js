@@ -1,7 +1,4 @@
-const lowDB = require('lowdb');
-const FileSync = require('lowdb/adapters/FileSync');
-const adapter = new FileSync('./models/db.json');
-const db = lowDB(adapter);
+const db = require('../models/dataBase');
 
 module.exports = {
     get: (request, response) => {
