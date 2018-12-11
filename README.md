@@ -1,3 +1,3 @@
-npm i
-npm run build
-npm run server
+npm i<br>
+npm run build<br>
+npm run server<br>
