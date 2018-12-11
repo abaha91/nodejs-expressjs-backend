@@ -3,23 +3,27 @@
     {
       "name": "Геннадий",
       "email": "abashkin.91@mail.ru",
-      "message": "hello"
-    },
-    {
-      "name": "Геннадий",
-      "email": "abashkin.91@mail.ru",
-      "message": "hello"
+      "message": "Hello world"
     }
   ],
   "auth": [
     {
       "email": "abashkin.91@mail.ru",
-      "password": "loft"
+      "password": "password"
+    },
+    {
+      "email": "abashkin.91@mail.ru",
+      "password": "password"
     }
   ],
   "products": [
     {
-      "src": "C:\\dev\\home\\nodejs-expressjs-backend\\source\\upload\\155-full.png",
+      "src": "C:\\dev\\projects\\nodejs-hw34\\source\\upload\\0_zrLTiLtPpTx3nb9-.png",
+      "name": "Товар",
+      "price": "100"
+    },
+    {
+      "src": "C:\\dev\\projects\\nodejs-hw34\\source\\upload\\blog-banner_mobify-generic-125.png",
       "name": "товар",
       "price": "100"
     }
@@ -30,30 +34,6 @@
       "concerts": "10",
       "cities": "10",
       "years": "10"
-    },
-    {
-      "age": "10",
-      "concerts": "10",
-      "cities": "10",
-      "years": "10"
-    },
-    {
-      "age": "11",
-      "concerts": "11",
-      "cities": "11",
-      "years": "11"
-    },
-    {
-      "age": "11",
-      "concerts": "11",
-      "cities": "11",
-      "years": "11"
-    },
-    {
-      "age": "11",
-      "concerts": "11",
-      "cities": "11",
-      "years": "11"
     }
   ]
 }
