@@ -10,7 +10,8 @@ module.exports = {
     saveSkills: (request, response) => {
         if (request.body) {
             db.get('skills')
-                .push({
+                .last()
+                .assign({
                     age: request.body.age,
                     concerts: request.body.concerts,
                     cities: request.body.cities,
