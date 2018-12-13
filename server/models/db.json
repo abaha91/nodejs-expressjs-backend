@@ -18,22 +18,27 @@
   ],
   "products": [
     {
-      "src": "C:\\dev\\projects\\nodejs-hw34\\source\\upload\\0_zrLTiLtPpTx3nb9-.png",
-      "name": "Товар",
-      "price": "100"
-    },
-    {
-      "src": "C:\\dev\\projects\\nodejs-hw34\\source\\upload\\blog-banner_mobify-generic-125.png",
-      "name": "товар",
+      "src": "upload\\aZ9yAlWw.jpeg",
+      "name": "Товар-1",
       "price": "100"
     }
   ],
   "skills": [
     {
-      "age": "11",
-      "concerts": "11",
-      "cities": "11",
-      "years": "11"
+      "number": "7",
+      "text": "Возраст начала занятий на скрипке"
+    },
+    {
+      "number": "74",
+      "text": "Концертов отыграл"
+    },
+    {
+      "number": "5",
+      "text": "Максимальное число городов в туре"
+    },
+    {
+      "number": "16",
+      "text": "Лет на сцене в качестве скрипача"
     }
   ]
 }

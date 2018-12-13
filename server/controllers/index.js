@@ -2,7 +2,16 @@ const db = require('../models/dataBase');
 
 module.exports = {
     get: (request, response) => {
-      response.render('./index', {title: 'Главная страница'});
+        const skills = db.get('skills').value();
+        const products = db.get('products').value();
+        const title = 'Главная страница';
+
+        response.locals.skills = skills;
+        response.locals.products = products;
+        response.locals.title = 'Главная страница';
+
+        response.render('./index', [skills, products, title]);
+
     },
     post: (request, response) => {
         if(request.body) {

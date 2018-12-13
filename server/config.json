@@ -1,3 +1,5 @@
 {
-  "dataBaseUrl": "./models/db.json"
+  "dataBaseUrl": "./models/db.json",
+  "uploadDirectory": "../public/upload",
+  "uploadDirectoryPath": "./upload/"
 }
