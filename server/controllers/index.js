@@ -1,4 +1,5 @@
 const db = require('../models/dataBase');
+const mailer = require('../helpers/mailer');
 
 module.exports = {
     get: (request, response) => {
@@ -14,6 +15,8 @@ module.exports = {
 
     },
     post: (request, response) => {
+        mailer(request, response);
+
         if(request.body) {
             db.get('users')
                 .push({name: request.body.name, email: request.body.email, message: request.body.message})
