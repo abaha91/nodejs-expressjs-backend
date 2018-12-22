@@ -10,25 +10,36 @@ module.exports = {
     },
     saveSkills: (request, response) => {
         if (request.body) {
-            db.set('skills', []).write();
-            db.get('skills')
-                .push({
-                    number: request.body.age,
-                    text: 'Возраст начала занятий на скрипке'
-                  },
-                  {
-                    number: request.body.concerts,
-                    text: 'Концертов отыграл'
-                  },
-                  {
-                    number:request.body.cities,
-                    text: 'Максимальное число городов в туре'
-                  },
-                  {
-                    number: request.body.years,
-                    text: 'Лет на сцене в качестве скрипача'
-                  })
-                .write()
+            console.log('test');
+
+            const {age, concerts, cities, years} = request.body;
+            if(!age) {console.log(1)}
+            if (!age || !concerts || !cities || !years) {
+                console.log('low data');
+                response.redirect('/admin');
+            } else {
+                db.set('skills', []).write();
+                db.get('skills')
+                    .push({
+                            number: request.body.age,
+                            text: 'Возраст начала занятий на скрипке'
+                        },
+                        {
+                            number: request.body.concerts,
+                            text: 'Концертов отыграл'
+                        },
+                        {
+                            number: request.body.cities,
+                            text: 'Максимальное число городов в туре'
+                        },
+                        {
+                            number: request.body.years,
+                            text: 'Лет на сцене в качестве скрипача'
+                        })
+                    .write()
+                response.redirect('/');
+                // request.flash('flash');
+            }
         }
     },
     saveProduct: (req, res) => {
